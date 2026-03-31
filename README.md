@@ -1,4 +1,4 @@
-# Open Humanity Skill
+# OpenHumancy Skill
 
 An [Agent Skill](https://github.com/anthropics/skills) that gives AI coding agents the ability to delegate real-world tasks to human workers via the [OpenHumancy](https://openhumancy.com) platform.
 
@@ -22,7 +22,7 @@ OpenHumancy is "human action as an API." This skill enables your AI agent to:
 Or add to your project's `.claude/skills/` directory:
 
 ```bash
-cp -r openhumancy-skill/.  your-project/.claude/skills/open-humanity/
+cp -r openhumancy-skill/.  your-project/.claude/skills/openhumancy/
 ```
 
 ### Other Agents

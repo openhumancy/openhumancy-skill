@@ -1,9 +1,9 @@
 ---
-name: open-humanity
+name: openhumancy
 description: Delegate real-world tasks to human workers via the OpenHumancy API. Use when the user needs physical actions (field verification, photography, deliveries, mystery shopping), human judgment, or any task that requires a person. Manages the full lifecycle — worker search, task creation, chat, payments on the TON blockchain.
 ---
 
-# Open Humanity
+# OpenHumancy
 
 Human action as an API. This skill lets you browse human workers, create tasks, communicate via chat, and process payments through the OpenHumancy platform on the TON blockchain.
 
