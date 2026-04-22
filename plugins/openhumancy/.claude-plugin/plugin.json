@@ -1,0 +1,12 @@
+{
+  "name": "openhumancy",
+  "version": "0.1.0",
+  "description": "Delegate real-world tasks to human workers via the OpenHumancy API. Manages worker search, task creation, chat, and TON blockchain payments.",
+  "author": {
+    "name": "OpenHumancy",
+    "url": "https://openhumancy.com"
+  },
+  "homepage": "https://openhumancy.com",
+  "license": "MIT",
+  "keywords": ["openhumancy", "humans", "tasks", "ton"]
+}

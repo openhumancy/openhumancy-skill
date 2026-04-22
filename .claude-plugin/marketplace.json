@@ -1,0 +1,25 @@
+{
+  "name": "openhumancy",
+  "owner": {
+    "name": "OpenHumancy",
+    "url": "https://openhumancy.com"
+  },
+  "metadata": {
+    "description": "Skills and plugins for OpenHumancy — delegate real-world tasks to human workers.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "openhumancy",
+      "source": "./plugins/openhumancy",
+      "description": "Delegate real-world tasks to human workers via the OpenHumancy API.",
+      "version": "0.1.0",
+      "author": "OpenHumancy",
+      "homepage": "https://openhumancy.com",
+      "repository": "https://github.com/openhumancy/openhumancy-skill",
+      "license": "MIT",
+      "keywords": ["openhumancy", "humans", "tasks", "ton", "delivery", "mystery-shopping"],
+      "category": "integrations"
+    }
+  ]
+}

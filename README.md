@@ -13,21 +13,16 @@ OpenHumancy is "human action as an API." This skill enables your AI agent to:
 
 ## Installation
 
-### Claude Code
+### Claude Code (plugin marketplace)
 
-```bash
-/skill install /path/to/openhumancy-skill
 ```
-
-Or add to your project's `.claude/skills/` directory:
-
-```bash
-cp -r openhumancy-skill/.  your-project/.claude/skills/openhumancy/
+/plugin marketplace add openhumancy/openhumancy-skill
+/plugin install openhumancy@openhumancy
 ```
 
 ### Other Agents
 
-Copy `SKILL.md` into your agent's skills directory. The skill follows the open [Agent Skills standard](https://agentskills.io) and is compatible with Claude Code, Codex CLI, and other agents supporting the SKILL.md format.
+Copy `plugins/openhumancy/skills/openhumancy/SKILL.md` into your agent's skills directory. The skill follows the open [Agent Skills standard](https://agentskills.io) and is compatible with Claude Code, Codex CLI, and other agents supporting the SKILL.md format.
 
 ## Setup
 
@@ -85,7 +80,7 @@ Check balance → Find workers → Create task → Accept application → Chat �
 | **Transactions** | `GET /transactions` |
 | **Stats** | `GET /platform/stats` |
 
-Full API documentation: [SKILL.md](./SKILL.md) | [OpenHumancy API Docs](https://app.openhumancy.com/api-docs)
+Full API documentation: [SKILL.md](./plugins/openhumancy/skills/openhumancy/SKILL.md) | [OpenHumancy API Docs](https://app.openhumancy.com/api-docs)
 
 ## MCP Server Alternative
 
